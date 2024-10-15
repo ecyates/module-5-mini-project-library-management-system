@@ -5,7 +5,7 @@ def connect_database():
     # Database connection parameters
     db_name = "library_management_db"
     user = "root"
-    password = "1C2D3A!e"
+    password = input("Enter password: ")
     host = "localhost"
     try:
         # Attempting to establish a connection
